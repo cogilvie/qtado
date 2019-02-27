@@ -2,6 +2,10 @@
 
 #include <tado.h>
 
+#define TADO_USER "user@domain.com"
+#define TADO_PASSWORD "password"
+
+
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
