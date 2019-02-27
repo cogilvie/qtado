@@ -1,7 +1,9 @@
 TEMPLATE = lib
 TARGET = qtado
 
-CONFIG += c++11
+CONFIG += c++11 staticlib
+
+DESTDIR = $$OUT_PWD/../../lib
 
 QT += core network
 
