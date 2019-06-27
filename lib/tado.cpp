@@ -11,14 +11,14 @@
 #include <QtNetwork/QNetworkReply>
 #include <QtNetwork/QHttpMultiPart>
 
-#define TADO_AUTH_URL QStringLiteral("https://my.tado.com/oauth/token")
+#define TADO_AUTH_URL QStringLiteral("https://auth.tado.com/oauth/token")
 #define TADO_ME_URL QStringLiteral("https://my.tado.com/api/v2/me")
 #define TADO_WEATHER_URL QStringLiteral("https://my.tado.com/api/v2/homes/%1/weather")
 #define TADO_ZONES_URL QStringLiteral("https://my.tado.com/api/v2/homes/%1/zones")
 #define TADO_ZONE_INFO_URL QStringLiteral("https://my.tado.com/api/v2/homes/%1/zones/%2/state")
 
-#define TADO_CLIENT_ID  QStringLiteral("public-api-preview")
-#define TADO_CLIENT_SECRET  QStringLiteral("4HJGRffVR8xb3XdEUQpjgZ1VplJi6Xgw")
+#define TADO_CLIENT_ID  QStringLiteral("tado-web-app")
+#define TADO_CLIENT_SECRET  QStringLiteral("wZaRN7rpjn3FoNyF5IFuxg9uMzYJcvOoQ8QWiIqS3hfk6gLhVlG57j5YNoZL2Rtc")
 #define TADO_SCOPE QStringLiteral("home.user")
 
 #define TADO_HOMEID 116061
