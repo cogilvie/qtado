@@ -1,6 +1,6 @@
 #include <QGuiApplication>
 
-#include <tado.h>
+#include <qtado/tado.h>
 
 #define TADO_USER "user@domain.com"
 #define TADO_PASSWORD "password"
